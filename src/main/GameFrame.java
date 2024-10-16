@@ -7,6 +7,11 @@ import javax.swing.JFrame;
 
 public class GameFrame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void Frame() {
 		GameFrame gm = new GameFrame();
 		SnakePanel gp = new SnakePanel();
